@@ -1,0 +1,15 @@
+DataAcquisitionSystem/
+│
+├── main.py               # 主程序入口
+├── modules/              # 功能模块
+│   ├── rs485.py          # RS485 通讯模块
+│   ├── websocket_fetch.py# WebSocket 数据采集模块
+│   ├── data_storage.py   # 数据存储模块
+│   ├── gui.py            # 图形界面模块
+│   └── logger.py         # 日志记录与异常处理模块
+│
+├── logs/                 # 存放日志文件
+│   └── data_acquisition_system.log
+├── requirements.txt      # 必要的 Python 包
+└── README.md             # 项目说明
+
